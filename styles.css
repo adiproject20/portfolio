@@ -1,0 +1,70 @@
+ /* Base Styles */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd;
+    color: #212529;
+}
+.navbar {
+    background-color: #64b5f6;
+}
+.navbar-brand, .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: #ffeb3b !important;
+    transition: color 0.3s;
+}
+
+/* Home Section */
+#home {
+    background: linear-gradient(to bottom, #90caf9, #e3f2fd);
+    color: #fff;
+}
+.circle-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* About Section */
+.about-section {
+    background-color: #bbdefb;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+/* Projects Section */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.projects-section {
+    background-color: #e3f2fd;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #64b5f6;
+    color: #fff;
+}
+.btn-primary {
+    background-color: #1e88e5;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #1565c0;
+}
+
+/* Animations */
+[data-aos] {
+    opacity: 0;
+    transition-property: opacity, transform;
+}
